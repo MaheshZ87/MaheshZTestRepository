@@ -151,7 +151,7 @@ sap.ui.jsview("sampleproject.TestView", {
 		});
 		
  		return new sap.m.Page({
-			title: "Employees",
+			title: "Employees List",
 			content: [oButton],
 			footer: new sap.m.Bar({
 				contentMiddle: new sap.ui.commons.DatePicker('datePickerId')
