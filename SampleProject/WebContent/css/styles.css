@@ -1,0 +1,1263 @@
+@CHARSET "ISO-8859-1";
+
+body {
+font-family: Arial,  sans-serif;
+color: #333333;
+font-size: 12px;
+overflow: hidden;
+margin: 0 0 8px 0;
+
+/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%) !important;
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EAF0F2));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #EAF0F2 100%);
+
+}
+
+
+.appStyleLeft {
+	text-align:left;
+}
+
+.NavigationBarMargin {
+	padding-top: 10px;
+}
+
+.searchFieldsMargin {
+	padding-left: 8px !important;
+}
+
+.helpButtonPadding {
+	padding-left: 5px !important;
+}
+
+.PanelDetails {
+	padding-top: 10px;
+}
+
+.sapUiPanel {
+	border: none;
+	margin-bottom: 20px;
+}
+
+.ButtonSpace {
+	display: inline;
+	position: relative;
+}
+
+#resultsHeader,#emptyHeader,#searchCriteria-intHeader,#detailsHeader,#partnerDetailMaster-intHeader,#listPage-intHeader,#detailResults-intHeader {
+	background-color:#f1f1f1;
+}
+
+#nCont .sapMBar:first-child {
+	background-color:#f1f1f1;
+}
+
+#searchCriteria-intHeader-BarPH {
+	border-top: 0.25rem solid #009de0;
+	background-color:transparent !important;
+}
+
+.sapMPopover>.sapMPopoverHeader>.sapMBarMiddle>.sapMBarPH>label {
+	display: inline-block;
+	color: #ffffff;
+}
+
+#chartText {
+	padding-left :20px !important;
+}
+
+.oLocationVBoxStyle {
+	padding-top:20px;
+	width: 300px;
+	height: auto;
+	padding:10px;
+	-webkit-border-radius: 6px/2px;
+    -moz-border-radius: 6px/2px;
+    border-radius: 6px/2px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	border-collapse:separate !important;
+}
+
+.mainAddressStyle {
+	font-weight:bold !important;
+}
+
+#partnerDetailsTabBar .sapMITBContentArrow {
+	display: block !important;
+}
+
+.selectedListItem{
+	background-color:#007cc0 !important;
+}
+
+.moveSelectListItem{
+	background-color:#e6f2f9 !important;
+}
+
+.resetSelectListItem{
+	background-color:#ffffff !important;
+}
+.houseNumber {
+	padding-right: 5px;
+}
+/*
+#locationTitle,#expertiseTitle,#focusTitle,#contactsTitle,#expertiseTitle {
+	font-size:22px;
+	padding-bottom:20px;
+}
+#expertiseTitle,#focusTitle {
+	padding-left:15px;
+}
+*/
+.partnerManagerEmail {
+	border-image-outset: 0px !important;
+	border: 0px !important;
+	background-color:#ffffff !important;
+	line-height: 1.0rem !important;
+	height: 1.25rem !important;
+}
+.partnerManagerEmail .sapMBtnContent>.sapUiIcon  {
+	line-height: 1.25rem !important;
+	width: 1.75rem !important;
+	font-size: 1.5rem !important;
+	vertical-align: top !important;
+	color: #007cc0 !important;
+}
+.popupLabel {
+	padding:30px;
+	padding-top:5px;
+	width:300px;
+	white-space:normal;
+	color:#ffffff !important;
+	background-color:#363e43;
+	text-align:justify !important;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+html[dir=rtl][data-sap-ui-browser='ie9'] .sapMPopoverArrRight:after, .sapMPopoverArrLeft:after {
+	border-right-color: #363e43 !important;
+}
+
+html[dir=rtl][data-sap-ui-browser='ie9'] .sapMPopoverArrLeft:after, .sapMPopoverArrRight:after {	
+	border-left-color:#363e43 !important;	
+}
+
+.partnerEmailPanelPadding {
+	padding-top:20px !important;
+	vertical-align: top;
+}
+
+#partnerEmailPanel .sapMPanelContent {
+	padding:10px !important;
+}
+
+.popoverStyle {
+	background-color: #363e43 !important;
+	border-radius: 5px !important;
+	color: black;
+	padding-bottom: 0px;	
+}
+
+.popoverStyle > .sapMBar {
+	color:#ffffff !important;
+	min-width:300px !important;
+	background-color: #363e43 !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	/* text-shadow: none !important; */
+}
+
+/* .popoverStyle .sapMPopoverArrUp:after{
+	border-bottom-color: #363e43 !important;	
+} 
+.popoverStyle .sapMPopoverArrLRight:after{
+	border-left-color: #363e43 !important;
+}
+.popoverStyle .sapMBar .sapMLabel {
+	color: #ffffff!important;
+}
+.popoverStyle .sapUiCltCont .sapMText{
+	padding-left:15px;
+	margin-right:15px;
+	padding-bottom:5px;
+	padding-top:5px;
+	line-height:20px;
+	text-align:justify!important;
+	color:#000000;
+}
+.popoverStyle .sapMText{	
+	padding-left:15px;
+	margin-right:15px;
+	padding-bottom:15px;
+	padding-top:5px;
+	line-height:100%;
+	text-align:justify!important;
+	color:#ffffff;
+}
+ */
+
+.tableHeader{
+	background-color:#f2f2f2;
+}
+
+.tableColumnStyle{
+	background-color:#ffffff;
+}
+
+
+.sapMListBGTranslucent .sapMListTblHeader {
+	background-color:#f2f2f2 !important;
+}
+
+#expertiseItem1Panel-header {
+	font-size:22px;
+	font-weight:bold;
+	border-bottom:0px;
+}
+#expertiseItem2Panel-header {
+	font-size:22px;
+	font-weight:bold;
+	border-bottom:0px;
+}
+
+#resultNumber, #searchNote{
+	text-align: right;
+	line-height: 25px;
+	font-style: italic;	
+	word-wrap: break-word;
+	white-space: normal;
+	padding-top:1px;
+	padding-bottom:2px;
+	padding-left:20px;
+	background-color:transparent!important;
+}
+
+.hrzDivider2{
+	overflow: hidden;
+}
+
+.busy_indicator {
+       width: 0px;
+       height:  0px;
+}
+
+.simpleDetailRight {
+	float:right;
+	padding-top:10px;
+	padding-right:10px;
+	font-size:18px !important;
+	word-break:break-word;
+}
+
+.partnerEmailIcon {
+position:absolute !important;
+right:15px;
+}
+
+#partnerEmailPanel {
+	width: 278px !important;
+    -webkit-border-radius: 6px/2px;
+    -moz-border-radius: 6px/2px;
+    border-radius: 6px/2px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.15);
+    box-shadow: 0 2px 3px rgba(0,0,0,.15);
+	
+}
+
+#partnerDetailPage-title {
+	font-size:20px !important;
+	color:#666666;
+}
+
+#partnerManagerName {
+	font-size:18px !important;
+	color:#00679e;
+}
+
+#detailLbl {
+	font-family: Arial;
+    font-size: 24px;
+    color: #00679e;
+    text-shadow: 0 1px #fff;
+    word-wrap: break-word;
+	word-break: break-word;
+	white-space: normal;
+}
+
+#personalization-scroll{
+	-webkit-transition: none !important;
+	transition: none !important;
+	-webkit-tranform: none !important;
+}
+#partnerEmailVBoxText {
+	width:100%;
+}
+
+.partnerVBoxStyle {
+	vertical-align:top !important;
+}
+.searchResultBtn .sapMBtnContent .sapUiIcon {
+	color:#444 !important;
+	font-size: 12px;
+	width:1.75rem !important;
+}
+
+.partnerEmailVBoxLabel {
+	word-wrap: break-word;
+	word-break: break-word;
+	width:auto !important;
+}
+
+.partnerEmailVBoxLabelName {
+	word-wrap: break-word;
+	word-break: break-word;
+	width:auto !important;
+	font-size:16px !important;
+	color:#007cc0 !important;
+}
+
+.partnerEmailVBoxLabelEmail {
+	word-wrap: break-word;
+	word-break: break-word;
+	width:auto !important;	
+	color:blue !important;
+}
+
+#IndustryFocus1,#IndustryFocus2,#IndustryFocus3,#IndustryFocus4 {
+	font-size:12px;
+}
+
+html[data-sap-ui-os^="iOS7"][data-sap-ui-browser^="msf"] .sapMPage {
+	position:absolute !important;
+}
+
+html[data-sap-ui-os^="iOS7"][data-sap-ui-browser^="msf"] footer.sapMBar {
+	position:absolute !important;
+}
+
+html[data-sap-ui-os^="iOS7"][data-sap-ui-browser^="msf"] #searchCriteria-cont {
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+}
+
+#partnerVBox {
+	padding-left:20px;
+	padding-top:20px;
+}
+.simpleDetailLeft  {
+	padding-left:15px;
+	padding-top:10px;
+	font-size:18px !important;
+	white-space:normal !important;
+	color: #007cc0 !important;
+	width:85%;
+	word-break:break-word;
+	word-break:break-all;
+}
+
+.sapMLIBContent{
+	width:100% !important;
+}
+.simplifiedVBox{
+	width:100% !important;
+}
+
+#simpleList .sapMLIBContent .sapMHBox .simplifiedVBox .sapMHBox {
+	width:100% !important;
+}
+
+#simpleList .sapMLIBContent .simplifiedVBox .simplifiedHBox .sapMFlexItem:nth-of-type(1) {
+	width:80% !important;
+	
+}
+
+#simpleList .sapMLIBContent .sapMHBox .simplifiedVBox .sapMHBox .sapMFlexItem {
+	width:80% !important;
+}
+
+#simpleList .sapMLIBContent .simplifiedVBox .simplifiedHBox .sapMFlexItem:nth-of-type(2) {
+	width:20% !important;
+	float:right !important;
+}
+
+#simpleList .sapMLIBContent .sapMLIBContentNF .simplifiedVBox .simplifiedHBox .sapMFlexItem:nth-of-type(1) {
+	width:80% !important;
+}
+
+#simpleList .sapMLIBContent .sapMLIBContentNF .simplifiedVBox .simplifiedHBox .sapMFlexItem:nth-of-type(2) {
+	width:20% !important;
+	float:right !important;
+}
+
+.simpleDetailBottom {
+	padding-left:16px;
+	padding-bottom:10px;
+	white-space: normal;
+}
+
+#oRegion .sapMSltLabel .sapNSltArrow {
+	height:2rem
+}
+
+.partnerTypePopOverLabel{
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#ffffff !important;
+	
+}
+.partnerTypePopOverDescription{
+	padding-top:0px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#E6E6E6 !important;
+	font-size: 12px !important;
+	
+}
+
+.font{
+	font-size: xx-small;
+}
+
+.partnerVBox{
+	background-color:#363e43;
+	width:300px;
+}
+
+.searchFieldStyle {
+	margin-left: 89%;
+	margin-bottom: 5px;
+}
+
+.sapMLabel {
+	white-space:normal !important;
+}
+
+.contactNameStyle {
+	color:#004990 !important;
+	font-weight:bold !important;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+.contactEmailStyle {
+	color:#004990 !important;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+.contactLabelStyle {
+	word-wrap: break-word;
+	word-break: break-word;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 16px !important;
+	color:black;
+	font-weight: bold;
+}
+
+.contactRelationLabelStyle {
+	word-wrap: break-word;
+	word-break: break-word;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 18px !important;
+	color:black;
+	font-weight: bold;
+	padding-top:10px;
+	padding-left:10px;
+	text-align: left;
+	float:left;
+}
+
+.contactVBoxStyle {
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:5px;	
+	width: 250px !important;
+	background-color: white;	
+	text-align: left;
+}
+
+
+
+#partnerDetailsTabBar-containerContent > #partnerDetailsTabBar-content {
+	/* IE10 Consumer Preview */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%) !important;
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EAF0F2));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EAF0F2 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #EAF0F2 100%);
+}
+
+.contactarea {
+	padding-left:10px;
+	margin-left:10px;
+	background-color:#FFFFFF 0%, #EAF0F2 80%	
+}
+
+.sapMFlexItem > #__layout4 > #__row18 > #__cell30 > #__label53{
+	text-align: left;
+	padding-left: 5px;
+}
+
+#contactsLayout {
+	min-width: 500px;
+    max-width: 950px;	
+	width:100% !important;
+	table-layout:"auto";
+}
+
+.focusAreaPanelStyle {
+	vertical-align:top !important;
+}
+
+.focusAreaPanelContentStyle{
+	border:1px solid #e5e5e5 !important;
+}
+
+.indFocusStyle {
+	width:30%;
+}
+
+#searchResults-listUl {
+	overflow:scroll;
+	width:auto;
+	table-layout:auto;
+}
+
+.searchResultBtn {
+	/* background-color: #f2f2f2 !important; */
+	border: 0px !important;
+	text-shadow: 0px !important;
+	outline: none !important;
+	color: #666666 !important;
+	padding-left: 0px !important;
+	font-weight:bold;
+}
+
+.personalizeBarStyle{
+	border-top: 1px solid #dddddd;
+}
+
+.personalizeVBox .sapMFlexItem {
+	-ms-flex-item-align: center;
+	text-align:center;
+}
+
+#personalizationView .sapMCbLabel {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px !important;
+	font-weight: normal;
+	color: #333 !important;
+}
+
+#personalizationView .sapMBtnContent>.sapUiIcon {
+	font-size:20px !important;
+	color:#333 !important;
+}
+.personalizeCheckBoxStyle {
+	color:#333;
+}
+
+#searchResults-listUl tbody tr td .sapMListTblNavCol .sapMListTbl .sapUiIcon {
+font-size: 0px !important;
+vertical-align: middle;
+}
+.columnDisplay {
+	padding-top:5px !important;
+	background-color:#f2f2f2;
+	font-family:Arial !important;
+	font-size:18px !important;
+	color:#666 !important;
+	text-align:center !important;
+}
+.columnSort {
+	background-color:#f2f2f2 !important;
+	font-family:Arial !important;
+	font-size:11px !important;
+	font-style:italic;
+	color:#666 !important;
+}
+
+.personalizeVBox {
+	align-items:center;
+}
+
+#personalizationView-cont {
+	overflow:hidden !important;
+}
+
+#persScrollCont-scroll{
+	width:100%
+}
+
+#persScrollCont{
+	overflow-x:hidden !important;
+}
+
+#personalizationView-scrollCont {
+	background-color:#f2f2f2 !important;
+	padding:0px !important;
+}
+
+#personalizationView {
+	width:400px;
+}
+
+@media screen and (orientation:portrait) {
+	#content {
+	
+		width:100%;
+		height:100%;
+		background:url('../images/PDASplash_portrait.png') no-repeat center center fixed;
+		background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size: cover;
+		-o-background-size:cover; 
+		/*background-position: 50% 50%;*/
+	}
+}
+
+@media screen and (orientation:landscape) {
+	#content {
+		width:100%;
+		height:100%;
+		background:url('../images/PDASplash_landscape.png');
+		background-size:cover;
+		-moz-background-size:cover;
+		-webkit-background-size: cover;
+		-o-background-size:cover; 
+		background-position: 50% 50%;
+	}
+}
+
+#personalizationView-header-BarPH {
+	background-color:#ccc !important;
+	font-family:Arial !important;
+	font-size:18px !important;
+	color:#666 !important;
+	text-shadow:0 1px #fff !important;
+	align-items:center;
+}
+
+#dtlPartnerTypes {
+	font-family: Arial;
+    font-size: 16px;
+    color: #666;
+    padding-right:10px;
+}
+
+#dtlr3ID,#dtlcrmID {
+	font-weight: bold;
+}
+
+#hBtn .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn1 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn2 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn3 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn4 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn5 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn6 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+#hBtn7 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+
+#hBtn8 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+
+#hBtn9 .sapMBtnContent>.sapUiIcon {
+color: #666666;
+font-size: 1.20rem;
+line-height: 25px;
+width: 1.25rem;
+text-align: center;
+margin: 0;
+}
+
+#hBtn, #hBtn1,#hBtn2,#hBtn3,#hBtn4,#hBtn5,#hBtn6,#hBtn7,#hBtn8, #hBtn9 {
+width: 30px;
+/* height: 30px; */
+min-width: 30px;
+-moz-border-radius: 70px;
+-webkit-border-radius: 70px;
+border-radius: 70px;
+}
+
+
+#basicSearch {
+	padding-top:8px;
+	font-size: 14px;
+	height: 38px;
+}
+#resultsLabel{
+	font-family:arial;
+	font-size:24pt;
+	color:#004990;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+#searchCriteria-intHeader-BarPH {
+	background-color:#e8f0f3;
+	border-top: 0.25rem solid #009de0;
+}
+#searchCriteria-scroll {
+	padding-left: 2px;
+	padding-top: 0px;
+	background-color:#e8f0f3;
+}
+#detailResults-title{
+	font-family:arial;
+	font-size:18pt;
+	color:#444444;
+}
+
+#searchCriteria {
+	background-color:#e8f0f3
+}
+#searchLabel,#regionLabel,#countryLabel,#soldToIndustryLabel,#industryFocusLabel,#solutionsLabel,#authSolutionsLabel,#partnerCategoryLabel,#authSupportLabel,#oRowCountLabel {
+	padding-top:10px;
+	padding-left: 8px;
+	font-weight:bold;
+}
+
+#hrzDivider {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-color: #ffffff;
+}
+.perfTableSales {
+	font-weight: bold !important;
+	vertical-align: middle !important;
+	font-family: Arial !important; 
+	color: #007833 !important;
+	background-color: transparent !important;
+	border: none !important;
+	outline: none !important;
+}
+
+
+
+#perfTable tbody tr:nth-of-type(1) {
+	background-color: #e6f2f9 !important;
+}
+
+#perfTable tbody tr:nth-of-type(1) td {
+	padding: 0.2rem 0.5rem !important;
+}
+#perfTable tbody tr:nth-of-type(1) .sapMBtn {
+	height: 1.75rem;
+}
+
+#perfTable tbody tr:nth-of-type(1) .sapMBtnContent {
+line-height: 0.5rem;
+}
+
+#perfTable tbody tr:nth-of-type(1) .perfTableSales {
+	font-weight: bold !important;
+	vertical-align: middle !important;
+	font-family: Arial !important; 
+	color: #007833 !important;
+	background-color: #e6f2f9 !important;
+	border: none !important;
+}
+
+#perfTable tbody tr:nth-of-type(2) {
+	background-color: #e6f2f9 !important;
+}
+
+#perfTable tbody tr:nth-of-type(2) td {
+	padding: 0.2rem 0.5rem !important;
+}
+#perfTable tbody tr:nth-of-type(2) .sapMBtn {
+	height: 1.75rem;
+}
+
+#perfTable tbody tr:nth-of-type(2) .sapMBtnContent {
+line-height: 0.5rem;
+}
+
+#perfTable tbody tr:nth-of-type(2) .perfTableSales {
+	font-weight: bold !important;
+	vertical-align: middle !important;
+	font-family: Arial !important; 
+	color: #007833 !important;
+	background-color: #e6f2f9 !important;
+	border: none !important;
+}
+
+#perfTable>.sapMListTbl .sapUiIcon {
+	color: #666 !important;
+	background-color: #e6f2f9 !important;
+	border: none !important;
+	font-size: 1rem;
+	vertical-align: top;
+}
+
+#perfTable tbody tr:nth-of-type(1) .sapMBtnContent>.sapUiIcon {
+	line-height: 1.75rem;
+}
+
+#perfTable tbody tr:nth-of-type(2) .sapMBtnContent>.sapUiIcon {
+	line-height: 1.75rem;
+}
+
+#perfTable>.sapMListTbl .sapMLabel {
+word-wrap: break-word;
+white-space: normal;
+}
+
+#expertiseTab {
+	white-space: normal;
+}
+
+#perfHeader1,#locationTitle,#expertiseTitle,#focusTitle,#contactsTitle,#expertiseTitle,#TrgAchHeader {
+	font-size: 24px;
+	color: black;
+	padding-right: 12px;	
+	padding-top: 5px;
+}
+
+#perfHeader2 {
+	padding-top: 8px;
+	font-size: 14px;
+	color: #222222;
+}
+
+#partnerPerfHBox {
+	padding-bottom: 15px;
+}
+
+#dtlPartnerTypeBtn-img, #targetAchievementInfBtn-img {
+	font-family: SAP-icons; 
+	font-size: 10px; 
+	color: #fff; 
+}
+
+#dtlPartnerTypeBtn, #targetAchievementInfBtn{
+	width: 20px; 
+	min-width:20px;
+	height: 20px; 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px; 
+	background-color: #999;
+	
+	 
+}
+
+
+#targetAchievementInfBtn{
+	margin-top: 10px;
+	 
+}
+
+
+
+#dtlPartnerTypeBtn .sapMBtnContent>.sapUiIcon, #targetAchievementInfBtn .sapMBtnContent>.sapUiIcon {
+line-height: 16px !important;
+width:2px !important;
+text-align: center;
+margin: 0;
+}
+
+#bFilter,#bPersonalize,#bHelp,#bSearch,#bOK,#bPRMDetails,#bPersonalizeHome,#bHelpHome,#bPersonalizeResults, #bHelpResults, #bHelpDetail {
+	border: 0px;
+	outline-color: rgba(100,114,123,0.96);
+}
+
+#bCloseMasterResults, #bCloseMasterDetails {
+	outline: none;
+}
+
+#searchFilter li, #listPage-scroll, #nCont .sapMFlexItem, #nCont .sapMPageScroll{
+	background-color: #f2f2f2 !important;
+}
+
+#nCont .sapMBarPH>label {
+	white-space: nowrap !important;
+}
+
+.filterItems {
+	background-color: #f2f2f2 !important;
+}
+
+#bFilter-img, #bPersonalizeHome-img, #bHelpHome-img, #bSearch-img, #bPRMDetails-img,
+#bPersonalizeResults-img, #bHelpResults-img, #bHelpDetail-img{
+color: #ffffff;
+font-size: 1.375rem;
+line-height: 2.375rem;
+width: 2.385rem;
+text-align: inherit;
+vertical-align: middle;
+margin: 0;
+background-image: url("../images/whitelinecircle.png");
+}
+
+#bSearch span + span, #bPersonalizeHome span + span, #bHelpHome span + span, #bPersonalizeResults span + span, #bHelpResults span + span, #bHelpDetail span + span, #bPRMDetails span + span, #bFilter span + span {
+	padding-left: 40px;
+}
+
+.masterCollapsed {
+width: 0px !important;
+}
+
+.sapMSplitContainerMaster {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+width: 320px;
+float: left;
+left: 0;
+}
+
+.pageTitle {
+	font-size: 20px !important;
+	color: #666666;
+}
+
+.sapMLIBActive div .simpleDetailLeft {
+	padding-left:15px;
+	padding-top:10px;
+	font-size:18px !important;
+	white-space:normal !important;
+	color: #ffffff !important;
+}
+
+#searchFilter .sapMLIBActive .sapMSLITitle, #searchFilter .sapMLIBActive .sapMSLIDescription {
+	color: #333333 !important;
+}
+
+#performanceTab,#locationTab,#expertiseTab,#focusTab,#contactsTab,#targetTab {
+	outline: none;
+}
+
+
+#targetTab > #targetTab-text {
+	width: 115px;
+	text-align: left;
+	padding-left: 0px;
+}
+
+#simpleList .sapMLIBContent .sapMLIBImgNav {
+	width: 0px !important;
+}
+.sapMListTbl .sapUiIcon {
+font-size: 1rem;
+vertical-align: middle;
+}
+
+#searchResults .sapMListTbl .sapMListTblNavCol .sapUiIcon {
+	font-size: 0px;
+	width: 0px !important;
+}
+
+#simpleList .sapUiIcon {
+	display: none !important;
+}
+
+#performanceTab-tab .sapMITBFilterDefault {
+	background-color: #f27020;
+	color: #ffffff;
+}
+
+#performanceTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #f27020;
+	border: none !important;
+}
+
+#locationTab-tab .sapMITBFilterDefault {
+	background-color: #008a3b;
+	color: #ffffff;
+}
+
+#locationTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #008a3b;
+	border: none !important;
+}
+
+#expertiseTab-tab .sapMITBFilterDefault {
+	background-color: #ab218e;
+	color: #ffffff;
+}
+
+#expertiseTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #ab218e;
+	border: none;
+}
+
+#focusTab-tab .sapMITBFilterDefault {
+	background-color: #007cc0;
+	color: #ffffff;
+}
+
+#focusTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #007cc0;
+	border: none;
+}
+
+#contactsTab-tab .sapMITBFilterDefault {
+	background-color: #f0ab00;
+	color: #ffffff;
+}
+
+#contactsTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #f0ab00;
+	border: none;
+}
+
+
+#targetTab-tab .sapMITBFilterDefault {
+	background-color: #004990;
+	color: #ffffff;
+}
+
+#targetTab-tab .sapMITBSelected .sapMITBFilterDefault  {
+	background-color: #004990;
+	border: none;
+}
+
+#performanceTab-tab .sapMITBFilterIcon,#locationTab-tab .sapMITBFilterIcon,#expertiseTab-tab .sapMITBFilterIcon,#focusTab-tab .sapMITBFilterIcon,#contactsTab-tab .sapMITBFilterIcon,#targetTab-tab .sapMITBFilterIcon {
+	border: none;
+}
+
+.footerButtonSelected {
+	color: #f0ab00 !important;
+}
+
+/*.sapMSplitContainerMasterBtn {
+	display: inline-block !important;
+} */
+
+.focusAccordian {
+	background-color : #ffffff;
+	border : none;
+	width: 300px !important;;
+}
+
+.accordOuter {
+	width: 270px !important;
+	border: none !important;
+	border-bottom: 2px solid #bfbfbf;
+	background-color: #ffffff !important;
+}
+
+.sapUiAcd {
+	background-color: #ffffff !important;
+}
+
+.sapUiAcdSectionCont {
+	overflow: hidden !important;
+	border: none !important;
+	padding-bottom: 2px !important;
+}
+
+
+.sapUiAcdSectionHdr {
+	border-bottom : none !important;
+	font-size: .875rem !important;
+	background-color: #ffffff !important; 
+	outline: none !important;
+}
+
+.sapUiAcdSection {
+	width: 260px !important;
+	background-color: #ffffff;
+}
+
+.sapUiAcdSectionHdr:hover {
+color: #ffffff;
+background-color: #007cc0 !important;
+}
+
+.cntrPadding {
+	padding-left: 15px;
+}
+
+.cntrRegPadding {
+	padding-left: 20px;
+}
+
+.perfHeaderIndustry {
+	width: 12% !important;
+}
+
+.perfHeaderSimple {
+	width: 8% !important;
+}
+
+
+.chartDisplay {
+	display: none !important;
+}
+.chartDisplayFillData {
+	display: flex !important;
+}
+
+#chartButton {
+	color: #444 !important;
+	/*background-color:#007cc0 !important;*/
+	-webkit-border-radius: 10px/5px;
+   
+}
+
+.displayBtnLayoutPadding{
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+}
+
+
+#chartButton .sapMBtnContent>span {
+vertical-align: top;
+line-height:1.5rem !important;
+}
+
+#chartButton .sapMBtnContent>.sapUiIcon {
+line-height: 1.5rem !important;
+}
+
+#chartButton .sapMBtn {
+	height: 1.5rem !important;
+}
+#chartButton {
+	border: 1px solid #bfbfbf !important;
+	height: 1.75rem !important;
+}
+
+
+
+
+#targetAchievementChart_toolbar,
+#targetAchievementChart_rangeSelectorText,
+#targetAchievementChart_table,
+#targetAchievementChart_whatif,
+#targetAchievementChart_dynamicanalysis {
+	display: none !important;
+}
+
+
+
+#targetAchievementChart {
+	width:100%;
+	background: #fff;
+	-webkit-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	-moz-box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+	box-shadow: 3px 4px 5px rgba(0,0,0,.75);
+}
+
+.targetAchievementChartCell{
+	width:100% !important;
+	min-width:750px;
+	vertical-align: top;
+}
+
+#targetAchievementChart_rangeSelector{
+	visibility: hidden !important;
+}
+
+.chartDisplayFillData {
+	display: flex !important;
+}
+
+#targetAchievementChart_graph_background > #targetAchievementChart_graph_undefined {
+	left:50px !important;
+}
+
+#targetAchievementChart{
+	width:480px;
+}
+
